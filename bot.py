@@ -64,7 +64,7 @@ def main():
         fallbacks=[CommandHandler("cancel", cancel)],
     )
 
-    app.add_handler(conv_handler)s
+    app.add_handler(conv_handler)
 
     print("Бот запущен...")
     app.run_polling()
